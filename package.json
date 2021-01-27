@@ -1,0 +1,21 @@
+{
+  "name": "hotelReviews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "cfenv": "*",
+    "express": "*",
+    "ibm-watson": "^5.6.0",
+    "request": "*",
+    "request-promise": "*",
+    "socket.io": "2.0.3",
+    "watson-developer-cloud": "^2.39.0"
+  }
+}
